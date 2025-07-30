@@ -1,8 +1,8 @@
 {
-    "HOST": "http://localhost:8000/",
+    "HOST": "http://localhost:8080/api",
     "ENTRY_POINTS": {
-        "people": "lets_plan_it/person/",
-        "events": "lets_plan_it/events/",
+        "people": "/persons",
+        "events": "/events",
         "people-by-event": "lets_plan_it/events/{event_id}/people"
     }
 }

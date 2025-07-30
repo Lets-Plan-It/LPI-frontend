@@ -105,7 +105,7 @@ function ImportMembers() {
                 body: JSON.stringify(memberObj)
             };
             // TODO: Move the URLs to a single file, use importing those.
-            fetch('http://localhost:8000/church/person/', requestOptions)
+            fetch('http://localhost:8000/api/person/', requestOptions)
                 .then((response) => {
                     if (response.ok) {
                         return response.json();

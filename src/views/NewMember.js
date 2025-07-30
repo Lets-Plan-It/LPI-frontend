@@ -115,7 +115,7 @@ function NewMember() {
             body: JSON.stringify(custom_body)
         };
         // TODO: Move the URLs to a single file, use importing those.
-        fetch('http://localhost:8000/church/person/', requestOptions)
+        fetch('http://localhost:8000/api/persons/', requestOptions)
             .then((response) => {
                 if (response.ok) {
                     raiseAlert(custom_body['ci'], 'success')

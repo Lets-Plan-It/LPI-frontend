@@ -64,7 +64,7 @@ function Sidebar(props) {
           href="https://www.creative-tim.com"
           className="simple-text logo-normal"
         >
-          Planning Church
+          LetsPlanIt
         </a>
       </div>
       <div className="sidebar-wrapper" ref={sidebar}>

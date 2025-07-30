@@ -77,7 +77,7 @@ class NewEvent extends React.Component {
             body: JSON.stringify(custom_body)
         };
         // TODO: Move the URLs to a single file, use importing those.
-        fetch('http://localhost:8000/church/events/', requestOptions)
+        fetch('http://localhost:8000/api/events/', requestOptions)
             .then(response => response.json())
             .then(data => this.setState({ postId: data.id }))
     }
